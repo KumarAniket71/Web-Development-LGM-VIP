@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Document</title>
+
+    <link rel="stylesheet" href="section3.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+    <link rel="stylesheet" href="style.css">
+    <style>
+        button{
+            border-width: 0;
+            color: aqua;
+            background-color: rgb(0, 9, 139);
+        }
+        .column {
+            flex: 33.33%;
+            padding: 5px;
+        }
+       .row {
+       display: flex;
+        }
+    </style>
+</head>
+<body>
+    <!-- Section 1 -->
+    <div class="header-content page-top bg-image" style="background-image: url(images/background_header.jpg);">
+        <div class="top-section">
+          <div> 
+                <nav class="navbar">
+
+                <h1>Zippy</h1>
+                    <ul class="nav-links">
+                        <li class="ctn"><a href="#">Home</a></li>
+                        <li class="ctn"><a href="#">About</a></li>
+                        <li class="ctn"><a href="#">Explore</a></li>
+                        <li class="ctn"><a href="#">Blogs</a></li>
+                        <li class="ctn"><a href="#">Contact us</a></li>
+                    </ul>
+                </nav>
+                
+                <span class="subhead">Explore the world beyound limits</span>
+                <h1>A Wonderfull Gift</h1>
+
+                <a href="#" class="ctn">Learn more</a>
+            </div>
+        </div>
+    </div>
+
+    <!--Section 2-->
+    <div width="900" align="center">
+        <center><h1>Welcome to Zippy</h1></center>
+        <div style="display: flex;justify-content: center;">
+            <p style="width: 200px;padding-right: 30px;">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+              diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos
+              et accusam et justo duo dolores et ea rebum. Accusantium aperiam earum ipsa eius, inventore nemo labore 
+              eaque porro consequatur ex aspernatur. Explicabo, excepturi accusantium! Placeat voluptates esse ut optio 
+              facilis!
+            </p>
+
+          <img src="images/umb.png"/>
+        </div>
+        <br><br><br>
+        <div style="align-items: center;width: 500px;">
+               <table cellspacing="10px"style="text-align: center;border-width: 10px;">
+                <tr >
+                    <td><img src="images/bell.png"/></td>
+                    <td><img src="images/mail.jpg"/></td>
+                    <td><img src="images/archive.png"/></td>
+                </tr>
+                <tr>
+                    <td>This is small example and i am writing randoims words in it just to fill the paragraph.</td>
+                    <td>This is small example and i am writing randoims words in it just to fill the paragraph.</td>
+                    <td>This is small example and i am writing randoims words in it just to fill the paragraph.</td></tr>
+                <tr valign="top">
+                    <td><button>learn more</button></td>
+                    <td><button>learn more</button></td>
+                    <td><button>learn more</button></td>
+                </tr>
+                </table>
+        </div>
+        <hr width="600px">
+    </div>
+
+    <!--Section 3-->
+    <div>
+        <div class="heading">
+            <h1>Projects</h1>
+        </div>
+        <div class="projects">
+    
+            <div class="project" id="proj-1">
+                <img src="images/img 3 (1).jpg" alt="">
+    
+                <h3>BLOGS</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus quas iste reiciendis architecto beatae
+                    impedit. Ad magni iste laboriosam unde!</p>
+                <button type="button">Launch Case Study</button>
+            </div>
+            <div class="project" id="proj-2">
+                <img src="images/img 3 (2).jpg" alt="">
+    
+                <h3>ENDEVEAOUR</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus quas iste reiciendis architecto beatae
+                    impedit. Ad magni iste laboriosam unde!</p>
+                <button type="button">Launch Case Study</button>
+            </div>
+            <div class="project" id="proj-3">
+                <img src="images/img 3 (3).jpg" alt="">
+                <h3>CONSULTANTS</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate autem quo enim odit molestiae cumque voluptatum placeat veritatis dolores. Ducimus fugiat incidunt nesciunt explicabo illum consequuntur, enim ab perspiciatis excepturi?</p>
+                <button type="button">Launch Case Study</button>
+            </div>
+            <div class="project" id="proj-4">
+                <img src="images/img 3 (4).jpg" alt="">
+                <h3>DESIGN</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem facere accusamus doloremque deleniti. Nihil nesciunt, possimus veniam rerum explicabo hic porro quas. Similique, error laboriosam. Doloribus, ratione eum. Alias, porro.</p>
+                <button type="button">Launch Case Study</button>
+            </div>
+        </div>
+    </div>
+
+    <!--Section 4-->
+    <div align="center">
+        <table align="center" >
+            <h1 align="center">Pricing table</h1>
+            <tr style="font-weight: bold;">
+                <td style="width: 150px;">Standard Plan</td>
+                <td style="width: 150px;">Business Plan</td>
+                <td style="width: 150px;">Premium Plan</td>
+            </tr>
+            <tr style="color:grey;height: 60px;">
+                <td>Free</td>
+                <td>19$/month</td>
+                <td>14$/month</td>
+            </tr>
+            <tr >
+                <td>2GB Available</td>
+                <td>10GB Available</td>
+                <td>100GB Available</td>
+            </tr>
+            <tr>
+                <td>15 max. contact</td>
+                <td>25 max. contact</td>
+                <td>unlimited max. contact</td>
+            </tr>
+            <tr>
+                <td>30 management</td>
+                <td>30 management</td>
+                <td>30 management</td>
+            </tr>
+            <tr>
+                <td>Disgusting ads</td>
+                <td>Ads free</td>
+                <td>Ads free</td>
+            </tr>
+            <tr>
+                <td style="height: 40px;"><button>Buy</button></td>
+                <td style="height: 40px;"><button>Buy</button></td>
+                <td style="height: 40px;"><button>Buy</button></td>
+            </tr>
+        </table>
+    </div>
+
+    <!--Section 5-->
+    <div>
+        <h2 style="text-align: center;color: white;">Video projects</h2>
+
+      <div class="content ">
+      
+      <div class="mySlides">
+        <iframe width="100%" height="500" src="https://www.youtube.com/embed/9tsE5kbO02o">
+        </iframe>
+      </div>
+      
+      <div class="mySlides">
+        <iframe  width="100%" height="500" src="https://www.youtube.com/embed/XySpjVip-DM">
+        </iframe>
+      </div>
+      
+      <div class="mySlides">
+        <iframe  width="100%" height="500" src="https://www.youtube.com/embed/Q7HwX8fG8xA">
+        </iframe>
+      </div>
+      
+      <div class="mySlides">
+        <iframe width="100%" height="500" src="https://www.youtube.com/embed/mMIE8CpIJes">
+        </iframe>
+      </div>
+      
+      <button  onclick="plusDivs(-1)">&#10094;</button>
+      <button  onclick="plusDivs(1)">&#10095;</button>
+      
+      </div>
+       <script>
+        var slideIndex = 1;
+        showDivs(slideIndex);
+        
+        function plusDivs(n) {
+          showDivs(slideIndex += n);
+        }
+        
+        function showDivs(n) {
+          var i;
+          var x = document.getElementsByClassName("mySlides");
+          if (n > x.length) {slideIndex = 1}
+          if (n < 1) {slideIndex = x.length}
+          for (i = 0; i < x.length; i++) {
+             x[i].style.display = "none";  
+          }
+          x[slideIndex-1].style.display = "block";  
+        }
+        </script>
+    </div>
+
+    <!--Section 6-->
+    <div>
+        <div class="teamcontainer">
+            <h1>Zippy Team</h1>
+            <div class="members">
+                <div id="mem-1">
+                    <img src="images/6 (1).jpg" alt="" class="image">
+                    <div class="middle">
+                        <div class="social"><img src="images/download.jpg" alt=""></div>
+                    </div>
+                    <p class="name">chugu lala</p>
+                    <p class="role">UI Developer</p>
+                </div>
+                <div id="mem-2">
+                    <img src="images/6 (2).jpg" alt="" class="image">
+                    <div class="middle">
+                        <div class="social"><img src="images/download.jpg" alt=""></div>
+                    </div>
+                    <p class="name">kumar</p>
+                    <p class="role">developer</p>
+                </div>
+                <div id="mem-3">
+                   <a href=""> <img src="images/msd.jpg" alt="" class="image"></a>
+                    <div class="middle">
+                        <div class="social"><img src="images/download.jpg" alt=""></div>
+                    </div>
+                    <p class="name">Mahendra Singh Dhoni</p>
+                    <p class="role">Cricketer</p>
+                </div>
+                <div id="mem-4">
+                    <img src="images/6 (4).jpg" alt="" class="image">
+                    <div class="middle">
+                   <a href="">   <div class="social"><img src="images/download.jpg" alt=""></div></a>
+                    </div>
+                    <p class="name">Rajesh paswan</p>
+                    <p class="role">HR</p>
+                </div>
+                <div id="mem-5">
+                   <a href=""> <img src="images/6 (5).jpg" alt="" class="image"></a>
+                    <div class="middle">
+                        <div class="social"><img src="images/download.jpg" alt=""></div>
+                    </div>
+                    <p class="name">padukon mishra</p>
+                    <p class="role">Consulatants</p>
+                </div>
+                <div id="mem-6">
+                   <a href=""> <img src="images/6 (6).jpg" alt="" class="image"></a>
+                    <div class="middle">
+                      <a href=""> <div class="social"><img src="images/download.jpg" alt=""></div></a>
+                    </div>
+                    <p class="name">SHARAD POWER</p>
+                    <p class="role">Manager</p>
+                </div>
+                
+            </div>
+        </div> 
+    </div>
+    <!--Section 7-->
+    <div>
+        <div class="image-slider">
+            <h1>Zippy Motivation</h1>
+            <div id="image">
+                <figure>
+                    <img src="images/1.jpg" alt>
+                    <img src="images/2.jpg" alt>
+                    <img src="images/3.jpg" alt>
+                    <img src="images/idea.jpg" alt="">
+                    <img src="images/lgo.jpg" alt="">
+                    
+                </figure>
+    
+            </div>
+        </div>
+    </div>
+
+    <!--Section 8-->
+    <div>
+        <div style="background-image: url('images/bg.jpg');   min-height: 200px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;">
+         <h1 style="color: aliceblue;">Newsletter signup</h1>
+            <form style="text-align: center;">
+		   
+		    <div>
+            <input type="email" name="email" placeholder="enter email"/>
+		    <input type="submit" value="signup"/>
+		    </div>
+		</form>
+        </div>
+    </div>
+
+    <!--Section 9-->
+    <div align="center">
+        <h1>Blog</h1>
+        <table style="text-align:center;">
+            <tr><td><img src="images/img9.1.jpg" alt="oops"></td>
+                <td><img src="images/img.2.jpg" alt="oops"></td>
+                <td><img src="images/img9.3.jpg" alt="oops"></td>
+            </tr>
+            <tr>
+                <td><b>part 1</b></td>
+                <td><b>part 2</b></td>
+                <td><b>part 3</b></td>
+            </tr>
+            <tr>
+                <td style="opacity: 0.5;"> date</td>
+                <td style="opacity: 0.5;">date</td>
+                <td style="opacity: 0.5;">date</td>
+            </tr>
+            <tr>
+                <td>It is a long established fact that a reader will be distracted by the readable content 
+                    of a page when looking at its layout. The point of using Lorem Ipsum is that it
+                    has a more-or-less normal distribution of letters, as opposed to using 'Content here,
+                    content here', making it look like readable English.</td>
+                <td>It is a long established fact that a reader will be distracted by the readable content 
+                    of a page when looking at its layout. The point of using Lorem Ipsum is that it
+                    has a more-or-less normal distribution of letters, as opposed to using 'Content here,
+                    content here', making it look like readable English.</td>
+                <td>It is a long established fact that a reader will be distracted by the readable content 
+                    of a page when looking at its layout. The point of using Lorem Ipsum is that it
+                    has a more-or-less normal distribution of letters, as opposed to using 'Content here,
+                    content here', making it look like readable English.</td>
+            </tr>
+            <tr>
+                <td><button type="button" onclick="alert('Page redirecting...')" style="border: thin">Read more</button></td>
+                <td><button type="button" onclick="alert('Page redirecting...')" style="border: thin">Read more</button></td>
+                <td><button type="button" onclick="alert('Page redirecting...')" style="border: thin;">Read more</button></td>
+            </tr>
+        </table>
+    </div>
+
+    <!--Section 10-->
+    <div>
+        <div class="row" style="background-color: rgb(248, 244, 11);">    
+            <div class="column">
+                <iframe padding-left="20px" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3663.070963157024!2d85.33345131497381!3d23.3494434847886!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f4e198229f65f9%3A0xd1b74315e6a27a03!2sRanchi%20Junction!5e0!3m2!1sen!2sin!4v1630317898562!5m2!1sen!2sin" width="600" height="300" style="border:3px solid black;"loading="lazy"></iframe>
+            </div>
+           
+            <div class="column">
+                <h1>Contact Us</h1>
+                <form >
+                    <label for="name">Name</label>
+                    <br><input type="text"/>
+                    <br><label for="email">Email-address</label>
+                    <br><input type="text"/>
+                    <br><label for="Subject">Subject</label>
+                    <br><input type="text"/>
+                    <br><label for="Message">Message</label>
+                    <br><input type="text" style="height: 50px;"/>
+                    <br><input type="button" value="Send"/>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!--Section 11-->
+    <div align="center">
+        <table align="center" style="text-align: center;" >
+            <tr style="font-weight: bold;height: 60px;">
+                <td style="width: 200px;">Office address</td>
+                <td style="width: 200px;">Contact us</td>
+                <td style="width: 200px;">Follow us</td>
+            </tr>
+            <tr style="height: 10px;">
+                <td>Lorem ipsum dolor,234</td>
+                <td rowspan="3"><img src="images/social.jpg" height="80px" width="100px"></td>
+                <td>XXXXXXXXXX</td>
+            </tr>
+            <tr style="height: 10px;">
+                <td>1200 consecture</td>
+                <td>XYZ@gmail.coim</td>
+            </tr>
+            <tr style="height: 10px;">
+                <td>Adipshing</td>
+                <td>equipped@zippy</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
